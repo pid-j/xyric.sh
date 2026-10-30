@@ -1,7 +1,5 @@
 # `xyric.sh`
 
-<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/83dadfe2-57d2-4427-94de-d96effffd8a1" />
-
 ## What is Xyric?
 [Xyric](https://scratch.mit.edu/projects/894909530) is a streaming platform\* in [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)) developed by [@DeafyLeaf](https://scratch.mit.edu/users/DeafyLeaf/)/[@DevSpring](https://scratch.mit.edu/users/DevSpring/). Xyric was designed to look like [Netflix](https://en.wikipedia.org/wiki/Netflix) (at least, to my knowledge). Xyric doesn't actually play movies, though...
 
@@ -19,15 +17,14 @@ I like the command-line, and I like its limitations. I'm not the *best* coder, b
 To run this, start by downloading the latest version (or any version) of `xyric.sh` from the [releases page](https://github.com/pid-j/xyric.sh/releases). Then, follow the steps according to your operating system.
 
 ### Windows
-If you have [`wsl`](https://learn.microsoft.com/en-us/windows/wsl/install) installed, launch `wsl` and proceed to the steps for Linux. Otherwise, install it with this command:
+**`wsl` is a prerequisite for Windows, ideally Ubuntu or Debian.** If you already have `wsl` installed, proceed to the steps for Linux. A guide on installing `wsl` can be found [here](https://learn.microsoft.com/en-us/windows/wsl/install). The guide can be boiled down to the following command:
 ```shell
-wsl.exe --install
+wsl --install
 ```
-
-Then, launch `wsl` and proceed to the steps for Linux.
+Refer to the guide for any issues during installation.
 
 ### macOS
-To my knowledge the steps for Linux are the same for macOS; although, I don't know because I don't use a Mac.
+To my knowledge the steps for Linux are the same for macOS; although, I don't know because I don't use a Mac. I assume `bash` comes with your macOS, but do install it (e.g. from `homebrew`) if not.
 
 ### Linux
 To run the script, add the executable flag and run it. The [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) will cause it to run with bash.
@@ -40,3 +37,12 @@ Alternatively, to run the script with the `bash` executable instead:
 ```shell
 bash /path/to/xyric.sh
 ```
+
+### FreeBSD
+bash can be installed on FreeBSD (see [this page](https://www.freshports.org/shells/bash) for more info). Install bash with **one of** the following commands:
+```shell
+pkg install shells/bash
+pkg install bash
+```
+
+Then, run `xyric.sh` with your bash shell.
