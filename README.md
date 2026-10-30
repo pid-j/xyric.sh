@@ -1,5 +1,7 @@
 # `xyric.sh`
 
+<img width="200" height="300" alt="image" src="https://github.com/user-attachments/assets/83dadfe2-57d2-4427-94de-d96effffd8a1" />
+
 ## What is Xyric?
 [Xyric](https://scratch.mit.edu/projects/894909530) is a streaming platform\* in [Scratch](https://en.wikipedia.org/wiki/Scratch_(programming_language)) developed by [@DeafyLeaf](https://scratch.mit.edu/users/DeafyLeaf/)/[@DevSpring](https://scratch.mit.edu/users/DevSpring/). Xyric was designed to look like [Netflix](https://en.wikipedia.org/wiki/Netflix) (at least, to my knowledge). Xyric doesn't actually play movies, though...
 
