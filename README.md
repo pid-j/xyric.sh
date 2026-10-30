@@ -11,7 +11,7 @@ This project was inspired by [@cat_Eatacat](https://scratch.mit.edu/users/cat_Ea
 *in reality, it was a discord message sent by [@31parkjulian](https://scratch.mit.edu/users/31parkjulian/)...*
 
 ## Why bash?
-I like the command-line, and I like its limitations. I'm not the *best* coder, but I can code pretty good in bash. I've also learned a lot in bash programming from the Youtube Channel, [You Suck At Programming](https://www.youtube.com/@yousuckatprogramming).
+I like the command-line, and I like its limitations. I'm not the *best* coder, but I can code pretty good in bash. I've also learned a lot in bash programming from the Youtube channel, [You Suck At Programming](https://www.youtube.com/@yousuckatprogramming).
 
 ## How do I run this?
 To run this, start by downloading the latest version (or any version) of `xyric.sh` from the [releases page](https://github.com/pid-j/xyric.sh/releases). Then, follow the steps according to your operating system.
