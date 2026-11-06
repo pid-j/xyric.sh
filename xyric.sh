@@ -1,0 +1,1 @@
+xyric/xyric.sh
