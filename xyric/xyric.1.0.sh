@@ -1,4 +1,15 @@
 #!/usr/bin/env bash
+#
+# A port of Xyric to bash
+#
+# # Created
+# Author: Pigeon <scratch.mit.edu/0x1194>
+# Original: DeafyLeaf <scratch.mit.edu/DeafyLeaf>
+# Date: Oct 30, 2026
+# License: MIT
+#
+# # Contributors
+# - Pigeon <scratch.mit.edu/0x1194>
 
 XYRIC_REWRITE=0
 declare -i XYRIC_REWRITE
